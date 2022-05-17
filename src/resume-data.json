@@ -1,0 +1,118 @@
+{
+  "name": "Benjamin Bala",
+  "thumbnail": "https://imageio.forbes.com/specials-images/imageserve/609946db7c398a0de6c94893/0x0.jpg?format=jpg&width=1200",
+  "biography": "I am a self taught Software engineer that is passionate about developing useful and stylish UI. I started my journey as a software engineer three years ago, i love to learn new things and focused on utilizing my skills to build quality software.",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/benjamin-bala-1250b4209/",
+    "github": "https://github.com/benjamin-bala",
+    "twitter": "https://twitter.com/benjeee_",
+    "email": "benjee.bala@gmail.com",
+    "phone": "(234) 814 366 6777"
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "100%"
+    },
+    {
+      "name": "Css",
+      "level": "90%"
+    },
+    {
+      "name": "Javascript",
+      "level": "90%"
+    },
+    {
+      "name": "React",
+      "level": "80%"
+    },
+    {
+      "name": "React Native",
+      "level": "70%"
+    },
+    {
+      "name": "Git",
+      "level": "60%"
+    },
+    {
+      "name": "Nodejs",
+      "level": "63%"
+    },
+    {
+      "name": "Python",
+      "level": "60%"
+    }
+  ],
+  "work": [
+    {
+      "year": "2019",
+      "company": "HNG Internship",
+      "role": "Frontend Developer",
+      "summary": [
+        "Gained experience building real life applications and working with other developers"
+      ]
+    },
+    {
+      "year": "2021",
+      "company": "HNG Internship",
+      "role": "Frontend Developer",
+      "summary": [
+        "Gained experience building real life applications and working with other developers",
+        "Lead a team of developers to carry out our weekly task",
+        "Became a HNG Finalist"
+      ]
+    },
+    {
+      "year": "2021",
+      "company": "Zuri Chat",
+      "role": "Frontend Developer",
+      "summary": [
+        "Setup an SPA for a slack clone",
+        "Lead a team of 10 developers to build a dynamic plugin sidebar",
+        "Worked on the authentication of the application"
+      ]
+    },
+    {
+      "year": "2022",
+      "company": "Sprout Digital",
+      "role": "React Native Developer",
+      "summary": [
+        "Built a mobile app for a local hospital",
+        "Built a mobile app for students to practice for their exams"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Watchlist",
+      "link": "https://twatchlist.netlify.app",
+      "repo": "",
+      "summary": [
+        "A web application that allows users to view movies and tv shows that are trending on the web",
+        "Built with React, React Router and Axios",
+        "Built with a custom API"
+      ]
+    },
+    {
+      "name": "Hivestore",
+      "link": "https://hivestore.netlify.app",
+      "repo": "",
+      "summary": [
+        "A web application that allows users buy course materials",
+        "A fullstack application Built with React, React Router, Redux, nodejs and mongodb",
+        "Built with a custom API"
+      ]
+    },
+    {
+      "name": "Cat Directory",
+      "link": "https://hivestore.netlify.app",
+      "repo": "",
+      "summary": [
+        "A mobile application built with react native that allows users to view and search for cats",
+        "Features include an offline storage that stores your favourite cat breed",
+        "Used react query to fetch data from a 3rd party api",
+        "Wrote tests to ensure the app is working as expected"
+      ]
+    }
+  ]
+}

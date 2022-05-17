@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 :root {
   /* colors */
@@ -121,9 +122,8 @@ body {
 }
 
 .skill-name {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .progress-bar {
@@ -136,8 +136,7 @@ body {
   height: 1rem;
   background-color: var(--black);
   border-radius: 0.5rem;
-  transition: width 0.3s ease-in-out;
-  width: 30%;
+  transition: all 1s ease-in;
 }
 
 @media screen and (max-width: 768px) {
