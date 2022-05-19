@@ -32,7 +32,8 @@ export default function Biography() {
             <span>
               <a
                 className='text-medium'
-                referrerPolicy={'no-referrer'}
+                rel='referrer noopener noreferrer'
+                target='_blank'
                 href={resumeData.socials.github}
               >
                 <img src={githubIcon} alt='Github' />
@@ -41,7 +42,8 @@ export default function Biography() {
             <span>
               <a
                 className='text-medium'
-                referrerPolicy={'no-referrer'}
+                rel='referrer noopener noreferrer'
+                target='_blank'
                 href={resumeData.socials.linkedin}
               >
                 <img src={linkedinIcon} alt='Linkedin' />
@@ -50,7 +52,8 @@ export default function Biography() {
             <span>
               <a
                 className='text-medium'
-                referrerPolicy={'no-referrer'}
+                rel='referrer noopener noreferrer'
+                target='_blank'
                 href={resumeData.socials.twitter}
               >
                 <img src={twitterIcon} alt='Twitter' />
