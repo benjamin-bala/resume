@@ -152,7 +152,10 @@ body {
   height: 1rem;
   background-color: var(--black);
   border-radius: 0.5rem;
-  transition: all 1s ease-in;
+}
+
+.load {
+  animation: load 3s normal forwards;
 }
 
 @media screen and (max-width: 768px) {
@@ -163,5 +166,16 @@ body {
   .welcome-text {
     transform: rotate(0deg);
     margin: 0;
+  }
+}
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 30%;
+  }
+  100% {
+    /* width: fit-content; */
   }
 }

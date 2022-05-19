@@ -9,7 +9,7 @@ export default function Skills() {
 
   React.useEffect(() => {
     setSkillData(resumeData.skills);
-  }, []);
+  }, [resumeData.skills]);
 
   return (
     <div className='my-3'>
@@ -23,7 +23,7 @@ export default function Skills() {
 
                 <div className='progress-bar'>
                   <div
-                    className='progress-bar-inner'
+                    className='progress-bar-inner  load'
                     style={{ width: skill.level }}
                   ></div>
                 </div>
