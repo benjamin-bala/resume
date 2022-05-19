@@ -1,0 +1,15 @@
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  transition: all 1.3s ease-in-out;
+}
+.social-icons img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.social-icons img:hover {
+  transform: scale(1.3);
+}
