@@ -13,7 +13,7 @@ export default function Skills() {
 
   return (
     <div className='my-3'>
-      <h3 className='text-medium'>Skills</h3>
+      <h3 className='text-large'>Skills</h3>
       <div className='my-2'>
         {skilldata.map((skill) => {
           return (

@@ -2,6 +2,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -38,6 +39,11 @@ body {
   margin: 0;
   font-family: 'Manrope', sans-serif;
   box-sizing: border-box;
+  background-color: #fafafa;
+  /* background: url('./assets/images/paper.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
 .container {
@@ -57,7 +63,7 @@ body {
 .grid-cols-3 {
   display: grid;
   grid-template-columns: 0.1fr 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 .text-small {
   font-size: var(--font-small);
@@ -71,6 +77,10 @@ body {
 }
 .text-xlarge {
   font-size: var(--font-xlarge);
+}
+.no-decoration {
+  text-decoration: none;
+  color: var(--black);
 }
 
 /* margin */
@@ -114,10 +124,10 @@ body {
   margin: 3rem 0;
 }
 .thumbnail {
-  height: 300px;
+  /* height: 400px; */
 }
 .thumbnail img {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
 
@@ -142,6 +152,7 @@ body {
 @media screen and (max-width: 768px) {
   .grid-cols-3 {
     grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
   .welcome-text {
     transform: rotate(0deg);

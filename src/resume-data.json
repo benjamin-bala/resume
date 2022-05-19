@@ -100,13 +100,14 @@
       "summary": [
         "A web application that allows users buy course materials",
         "A fullstack application Built with React, React Router, Redux, nodejs and mongodb",
-        "Built with a custom API"
+        "Features include a search box, cart, checkout and payment"
       ]
     },
     {
       "name": "Cat Directory",
-      "link": "https://hivestore.netlify.app",
+      "link": "https://drive.google.com/file/d/1j90j5DJxU-yfh5oi8x-m8vfzPmqVW8At/view",
       "repo": "",
+      "type": "apk",
       "summary": [
         "A mobile application built with react native that allows users to view and search for cats",
         "Features include an offline storage that stores your favourite cat breed",

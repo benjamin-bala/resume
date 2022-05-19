@@ -1,4 +1,6 @@
 import React from 'react';
+import Biography from '../../Components/Biography';
+import Projects from '../../Components/Projects';
 import Skills from '../../Components/Skills';
 import Thumbnail from '../../Components/Thumbnail';
 import Work from '../../Components/Work';
@@ -11,11 +13,12 @@ export default function Resume() {
       </div>
       <div>
         <Thumbnail />
+
         <Skills />
-        <Work />
       </div>
       <div>
-        <h2>Tet</h2>
+        <Work />
+        <Projects />
       </div>
     </div>
   );
